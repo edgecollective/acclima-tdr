@@ -4,7 +4,9 @@ Connecting an Acclima TDR310H to an Arduino-compatible datalogger.
 
 ## Summary
 
-As of August 5, 2019: we've successfully connected to the sensor using an open source library and retrieved preliminary data.  Next steps include:
+**Update: August 5, 2019**
+
+We've successfully connected to the sensor using an open source library and retrieved preliminary data.  Next steps include:
 
 - Stabilizing the return signal so that measurements are retrieved every X seconds (perhaps this only requires a stable screw terminal connection in lieu of e.g. a breadboard);
 - Writing code to return only a single set of measurements at a time (rather than the current code, which runs on a loop)
