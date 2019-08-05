@@ -55,13 +55,18 @@ Initial connection to the device worked within a few seconds.  For some reason, 
 
 <img src="./img/data_1.png">
 
-You can see the 5 reported values, as predicted in the above table: 
+You can see the 5 reported sensor values in the above printout:
 
-- Volumetric Water Content
-- Soil Temperature 
-- Bulk Relative Permittivity
-- Soil Electric Conductivity
-- Soil Pore Water EC
+```
+0.0,25.1,1.1,0,0
+
+```
+
+Corresponding to:
+
+```
+Volumetric Water Content, Soil Temperature, Bulk Relative Permittivity, Soil Electric Conductivity, Soil Pore Water EC
+```
 
 Before the probe is placed in water, the only non-zero values are for the temperature (25.1 C), and the Bulk Relative Permittivity (1.1).  
 
