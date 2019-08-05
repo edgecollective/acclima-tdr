@@ -41,7 +41,7 @@ Using the [d_simple_logger.ino](https://github.com/EnviroDIY/Arduino-SDI-12/tree
 #define DATA_PIN 6         // The pin of the SDI-12 data bus
 ```
 
-This code should print values out to the serial port.  
+This code should print values out to the serial port. The suitably modified code is [here](https://github.com/edgecollective/acclima-tdr/blob/master/code/d_simple_logger.ino)).
 
 ## Test Setup
 
